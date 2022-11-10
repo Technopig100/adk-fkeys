@@ -1,7 +1,7 @@
 [Desktop Entry]
 Type=Application
 Version=1.0
-Name=Fkeys
+Name=Fix Keys
 GenericName=fix-pacman-databases-and-keys
 Comment=Fix Pacman Databases and Keys
 Icon=stock_keyring
