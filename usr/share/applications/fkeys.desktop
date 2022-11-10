@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Fkeys
+GenericName=fix-pacman-databases-and-keys
+Comment=Fix Pacman Databases and Keys
+Icon=stock_keyring
+Exec=/usr/bin/fix-pacman-databases-and-keys.sh
+Terminal=true
+Categories=System;Pacman;ConsoleOnly;
+Keywords=system;process;task;fix
