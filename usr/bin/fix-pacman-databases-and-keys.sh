@@ -18,7 +18,7 @@ sudo rm -r /etc/pacman.d/gnupg/*
 sudo pacman-key --init
 sudo pacman-key --populate
 sudo -- bash -c 'echo "keyserver hkp://keyserver.ubuntu.com:80" >> /etc/pacman.d/gnupg/gpg.conf'
-sudo pacman -Syy
+sudo pacman -Syy --noconfirm --needed archlinux-keyring
 wait
 echo
 tput setaf 2
